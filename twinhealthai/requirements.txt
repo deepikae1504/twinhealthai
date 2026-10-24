@@ -1,9 +1,0 @@
-# Exact versions this project was trained and tested with (Python 3.11 or newer).
-# A saved model file only loads safely with the same scikit-learn version.
-streamlit==1.66.0
-scikit-learn==1.8.0
-pandas==3.0.2
-numpy==2.4.4
-scipy==1.17.1
-joblib==1.5.3
-matplotlib==3.10.8
