@@ -22,6 +22,26 @@ Type 2 diabetes is very common in India, and doctors see patients only in short 
 | Doctor dashboard | `app.py` |
 | Synthetic or open data only | enforced in code, see `SECURITY.md` |
 
+## Technology Stack
+
+- **Programming Language:** Python
+- **Data Processing:** Pandas, NumPy
+- **Dashboard:** Streamlit
+- **Model Serialization:** Joblib
+- **Testing:** Pytest
+- **Version Control:** Git and GitHub
+- **CI/CD:** GitHub Actions
+
+## AI/ML Frameworks and Libraries
+
+- **Machine Learning Library:** Scikit-learn
+- **ML Model:** Gradient Boosting Classifier
+- **Feature Engineering:** Pandas, NumPy, Scikit-learn
+- **Data Fusion:** Integration of EHR features with wearable sensor and meal-log data
+- **Model Evaluation:** Precision-Recall AUC (PR-AUC) and classification metrics
+- **Model Persistence:** Joblib
+
+
 ## How it works
 1. `generate_data.py` simulates 1,000 patients for 7 days (Indian meals, genetics, sleep stages, meal log).
 2. `scenarios.py` adds real-world trouble: missing readings, offline sensors, wrong meal logs, incomplete health records.
